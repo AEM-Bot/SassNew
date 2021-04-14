@@ -1,0 +1,17 @@
+//set text color--function returns something
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000000;
+  } @else {
+    @return #ffffff;
+  }
+}
+
+
+// Transform mixin
+
+@mixin transform($property) {
+    --webkit-transform:$property;
+    -ms-transform: $property;
+    transform: $property;
+}

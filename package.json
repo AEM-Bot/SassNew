@@ -1,0 +1,23 @@
+{
+  "name": "sass-new",
+  "version": "1.0.0",
+  "description": "Syntactically Awesome StlyeSheets  css preprocessor/ precompiler enhances the css functionality other preprocessors less and stylus etc",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/ -w -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AEM-Bot/SassNew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AEM-Bot/SassNew/issues"
+  },
+  "homepage": "https://github.com/AEM-Bot/SassNew#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
